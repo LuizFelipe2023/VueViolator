@@ -1,0 +1,39 @@
+:root {
+    --primary: #c1121f;
+    --primary-dark: #8a0d15;
+    --dark: #0a0a0a;
+    --dark-light: #1a1a1a;
+    --text: #f0f0f0;
+    --text-muted: #aaa;
+    --card: #151515;
+    --card-light: #252525;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Cinzel", serif;
+    background-color: var(--dark);
+    color: var(--text);
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.section-title {
+     font-size: 3rem;
+     margin-bottom: 40px;
+     color: var(--primary);
+     text-align: center;
+     font-family: 'Metal Mania', cursive;
+     letter-spacing: 2px;
+     position: relative;
+     padding-bottom: 15px;
+ }
