@@ -9,7 +9,7 @@
   --card-light: #252525;
 }
 
-/* Navbar geral */
+
 .navbar {
     background: rgba(10, 10, 10, 0.95);
     position: fixed;
@@ -22,6 +22,7 @@
     border-bottom: 1px solid var(--primary);
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    margin-bottom: 15px;
 }
 
 .navbar.scrolled {
