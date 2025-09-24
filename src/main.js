@@ -8,5 +8,7 @@ import '../public/css/discografia.css'
 import '../public/css/shows.css'
 import '../public/css/footer.css'
 import '../public/css/popup.css'
+import '../public/css/player.css'
+
 
 createApp(App).mount('#app')

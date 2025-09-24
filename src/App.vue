@@ -8,6 +8,7 @@ import Discografia from './Components/Discografia.vue';
 import Shows from './Components/Shows.vue';
 import Footer from './Components/Footer.vue';
 import PopupMensagem from './Components/PopupMensagem.vue';
+import SpotifyPlayer from "./Components/SpotifyPlayer.vue";
 
 const mensagem = ref("");
 const tipoMensagem = ref("");
@@ -21,6 +22,7 @@ function mostrarPopup(msg, tipo = "sucesso") {
 <template>
   <Navbar />
   <PopupMensagem :mensagem="mensagem" :tipo="tipoMensagem" />
+  <SpotifyPlayer></SpotifyPlayer>
   <Banner />
   <Sobre />
   <Discografia />
